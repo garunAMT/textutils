@@ -41,13 +41,13 @@ export default function Analyzer(props) {
             onChange={handleOnChange}
           ></textarea>
         </div>
-        <button className="btn btn-primary" onClick={handleUpClick}>
+        <button className="btn btn-primary my-2" onClick={handleUpClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-5" onClick={handleDownClick}>
+        <button className="btn btn-primary mx-5 my-2" onClick={handleDownClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary mx-3" onClick={handleClearClick}>
+        <button className="btn btn-primary mx-3 my-2" onClick={handleClearClick}>
           Clear 
         </button>
       </div>
